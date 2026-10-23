@@ -41,7 +41,7 @@ try:
 except ImportError:
   import urllib2
 
-_CLDR_WINZONES_URL = "https://github.com/unicode-org/cldr/raw/master/common/supplemental/windowsZones.xml" # pylint: disable=line-too-long
+_CLDR_WINZONES_URL = "https://raw.githubusercontent.com/unicode-org/cldr/master/common/supplemental/windowsZones.xml" # pylint: disable=line-too-long
 
 
 def download_cldr_win32tz_map_xml():
