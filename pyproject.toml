@@ -4,6 +4,6 @@ requires = [
     "wheel",
     "defusedxml",
     "python-dateutil>=2.0",
-    "pytz >= 2011g",
+    "pytz >= 2026.3.post1",
 ]
 build-backend = "setuptools.build_meta"

@@ -43,7 +43,7 @@ class update_install(install.install):
 
 data = dict(
     name='python-datetime-tz',
-    version='0.5.4+j5.1',
+    version='0.5.4+j5.2',
     author='Tim Ansell',
     author_email='mithro@mithis.com',
     url='http://github.com/mithro/python-datetime-tz',
@@ -62,7 +62,7 @@ A drop in replacement for Python's datetime module which cares deeply about time
     install_requires=[
         "defusedxml",
         "python-dateutil >= 2.0",
-        "pytz >= 2011g",
+        "pytz >= 2026.3.post1",
     ],
     py_modules=['datetime_tz','datetime_tz.pytz_abbr'],
     test_suite='tests',
